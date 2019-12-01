@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+html,body{
+ font-family: josefin-sans;
+	width:100%;
+	height:100%;
+}
+
+/************************************
+	NAVIGATION BAR
+************************************/
+
+.navigation{
+	-webkit-box-shadow: 3px 1px 3px 0px #6E6E67;
+	box-shadow: 3px 1px 3px 0px #6E6E67;
+	background: #59554e;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 35px;
+	text-align: left;
+	bottom: 0%;
+}
+
+.center-navigation {
+	position: relative;
+	margin: 0 auto;	
+}
+
+.navigation li{
+	width: 120px;
+	color: #FFFFFF;
+	-webkit-transition: all .2s ease-in-out;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 1.5em;
+	float:left;
+	padding: 7px;
+}
+.navigation li:hover,.active{
+	opacity: 1!important;
+	font-size: 1.8em;
+	cursor:pointer;
+}
+
+/************************************
+	SLIDE BACKGROUNDS
+************************************/
+
+.slide {
+	background-attachment: fixed;
+	width:100%;
+	height: 100%;
+	position: relative;
+	overflow:hidden;
+}

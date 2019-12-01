@@ -1,0 +1,422 @@
+@charset "UTF-8";
+
+html,body{
+	font-family: josefin-sans;
+	width: 100%;
+	height: 100%;
+	color: #171717;
+}
+
+.pagewrap {
+	width: 980px;
+	margin: 0;
+	padding: 0;	
+
+}
+
+.wrapper{
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+	visibility: visible;
+}
+
+/*Home Page*/
+#slide1 {
+	background-color: #FFFFFF;
+}
+
+#left-orb {
+	position: relative;
+	left: -200px;
+	top: 50px;
+	width: 400px;
+	height: 400px;
+}
+
+#right-orb {
+	position: relative;
+	top: -400px;
+	right: -600px;
+	width: 600px;
+	height: 600px;
+}
+
+#intro-text {
+	position: absolute;
+	width: 500px;
+	top: 16%;
+	left: 55%;
+	font-size: 2.5em;
+}
+
+#intro-fade {
+	opacity: 0;	
+}
+
+
+#enter-box {
+	text-decoration:none;
+	font-size: 4.5em;
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-style: solid solid none;
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	border-color: #59554E;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#enter-fade {
+	margin-left: 15%;
+	margin-top: 40%;
+	position: absolute;
+	opacity: 0;
+}
+
+/*About Page*/
+
+#about-page {
+	height: 1200px;
+	background-color:  #E2E3D9;
+}
+
+#normal-text-box {
+	position: absolute;
+	width: 870px;
+	top: 15%;
+	left: 35%
+}
+
+#orb-one {
+	height: 200px;
+	position: absolute;
+	top: 400%;
+	left: -200px;
+}
+
+
+#orb-two {
+	position: absolute;
+	top: 200%;
+	left: -200px;
+}
+
+#orb-three {
+	position: absolute;
+	top: 300%;
+	opacity: 0.4;
+}
+
+#orb-four {
+	position: absolute;
+	top: 200%;
+	right: -400px;
+	opacity: 0.5;
+}
+
+/*Isolation Title Page*/
+
+#isolation_title {
+	margin-left: 35%;
+	margin-top: 15%;
+}
+
+/*Isolation About Page */
+
+#isolation-about {
+	background: #E2E3D9;
+	height: 1900px;	
+}
+
+#isolation-about-box {
+	position: absolute;
+	left: 35%;
+	top: 250%;
+}
+
+#isolation-about  img:first-child{
+	opacity: 0.5;
+	position: absolute;
+
+}
+
+#isolation-about img:nth-child(2) {
+	opacity: 0.5;
+	position: absolute;
+
+}
+
+#isolation-about img:nth-child(3) {
+	opacity: 0.5;
+	position: absolute;
+
+}
+
+#isolation-about img:nth-child(4) {
+	opacity: 0.5;
+	position: absolute;
+
+}
+
+
+#isolation-about img:nth-child(5) {
+	opacity: 0.3;
+	position: absolute;
+
+}
+
+#little-man {
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 74%;
+}
+
+#inset-circle {
+	position: absolute;
+	top: 250%;
+	left: 51%;
+}
+
+/*Isolation Photo and Illustration Page */
+#isolation-photo {
+	background: #E2E3D9;
+	height: 1200px;	
+}
+
+#isolation-quote {
+	position: absolute;
+	height: 200px;
+	top: 120%;
+	left: 20%;
+}
+
+#isolation-illustration {
+	background: #E2E3D9;
+	height: 1300px;	
+}
+
+/*Labyrinth Intro Page*/
+
+#labyrinth {
+	background: #E2E3D9;
+	height: 1200px;	
+}
+
+#labyrinth_title {
+	width: 600px;
+	position: absolute;
+	left: 35%;
+	top: 250%;
+}
+
+#mobile-bg {
+	visibility: hidden;
+}
+
+#adjustment-1 {
+	margin-top: 71px;	
+}
+
+#adjustment-2{
+	margin-top: -48px;	
+}
+
+#labyrinth  img:first-child{
+	position: absolute;
+}
+
+#labyrinth img:nth-child(2) {
+	position: absolute;
+}
+
+#labyrinth img:nth-child(3) {
+	position: absolute;
+}
+
+#labyrinth img:nth-child(4) {
+	position: absolute;
+}
+
+#labyrinth img:nth-child(5) {
+	position: absolute;
+}
+
+/*Labyrinth About Page */
+
+#labyrinth-about {
+	background: #E2E3D9;
+	height: 1200px;	
+}
+
+#labyrinth-about-box {
+	position: absolute;
+	left: 25%;
+	top: 60%;
+}
+
+#adjustment-4{
+	font-size: 2em;
+	margin-top: 11%;
+	padding-top: 26px;
+}
+
+#labyrinth-about img:first-child{
+	position:absolute;
+	top: -10px;
+}
+#labyrinth-about img:nth-child(2){
+	position:absolute;
+	top:300px;
+}
+
+#labyrinth-about img:nth-child(3){
+	position:absolute;
+	top: 600px;
+}
+
+
+/*Labyrinth Photo  and Illustration Page */
+
+#labyrinth-photo {
+	height: 1200px;	
+}
+
+#labyrinth-illustration {
+	height: 1200px;	
+}
+
+#labyrinth-quote {
+	position: absolute;
+	height: 200px;
+	top: 120%;
+	left: 20%;
+}
+
+/*Connection, Photo and About Page*/
+
+#connection {
+	height: 1200px;	
+}
+
+#connection-photo {
+	height: 1200px;	
+}
+
+
+#connection_title {
+	margin-left: 35%;
+	margin-top: 35%;
+}
+
+#connection-about {
+	background: #E2E3D9;
+	height: 1200px;	
+}
+
+#connection-about-box {
+	position: absolute;
+	left: 25%;
+	top: 60%;
+}
+
+#adjustment-5{
+	font-size: 2em;
+	margin-top: 11%;
+	padding-top: 26px;
+}
+
+#cnxn-orb-1{
+	height: 200px;
+	position: absolute;
+	top: 160%;
+	left: 10%;
+}
+
+#cnxn-orb-2 {
+	height: 200px;
+	position: absolute;
+	top: 20%;
+	left: 35%
+}
+
+#cnxn-orb-3 {
+	height: 200px;
+	position: absolute;
+	top: 380%;
+	left: 55%;
+}
+
+#cnxn-orb-4 {
+	height: 200px;
+	position: absolute;
+	top: 430%;
+	left: 60%;
+}
+
+#cnxn-orb-5 {
+	height: 200px;
+	position: absolute;
+	top: 220%;
+	left: 75%;
+}
+
+/*Conclusion*/
+
+#conclusion {
+	height: 1200px;	
+}
+
+#credits {
+	background: #59554e;
+	height: 1200px;	
+}
+
+#summary {
+	height: 400px;
+	width: 800px;
+	position: relative;
+	padding: 30px;
+	background: white;
+	-webkit-box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
+	margin-top: -10%;
+	margin-left: 25%;
+	text-align: center;	
+}
+
+.summary_title {
+	font-style: normal;
+	font-weight: 100;
+	font-size: 2.5em;	
+}
+
+.summary_text {
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1.5em;	
+}
+
+.bar {
+	height: 3px;
+	width: auto;
+	background: black;	
+}
+
+
+.space {
+	height: 50px;
+	width: auto;
+}
+
+.panel {
+	height:auto;
+	width: auto;
+	position: relative;
+}

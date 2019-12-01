@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+/************************************
+	LINKS
+************************************/
+
+a:link {
+	text-decoration:none;
+	color: #171717;
+}
+
+a:visited {
+	color: #171717;
+}
+
+a:hover {
+	color:  #A1C1BE;
+}
+
+/************************************
+	SLIDE 
+************************************/
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow:hidden;
+	box-shadow:inset 3px 4px 10px rgba(0,0,0,0.57);
+}
+
+/************************************
+	NAVIGATION BAR
+************************************/
+
+.navigation{
+	-webkit-box-shadow: inset 3px 1px 3px 0px #303030;
+	box-shadow: inset 3px 1px 3px 0px #303030;
+	background: #59554e;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	max-height: 10px;
+	text-align: center;
+	bottom: 0%;
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+
+.navigation ul {
+	list-style: none;
+	padding: 15%;
+}
+
+.navigation li{
+	width: 120px;
+	color: #FFFFFF;
+	display: inline;
+	opacity: 0.5;
+	font-size: 1.5em;
+}
+
+.navigation li a{
+	color: #FFFFFF;
+}
+
+.navigation li:hover,.active{
+	opacity: 1!important;
+	cursor:pointer;
+	width:120px!important;
+}
+
+.button{
+	display:block;
+	width:60px;
+	height:60px;
+	position:absolute;
+	bottom: 100px;
+	left:50%;
+	background-image: url(../images/next_page.png);
+	opacity: 0.2; 
+}
+
+.button:hover{
+	opacity: 1;
+	cursor:pointer;
+}
+/************************************
+	World Circles
+************************************/
+.world {
+	position: relative;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.23);
+}
+
+.right {
+	-webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.23);
+	width: 100%;
+	height: 100%;
+	float:right;
+}
+
+.left {
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	width: 100%;
+	height: 100%;
+	float: left;	
+}
+
+.outer-right{
+	border-right: 1em solid;	
+}
+
+.inner-right {
+	border-right: 0.75em solid;
+	margin-top: 5%;
+	width: 90%;
+	height: 90%;
+	margin-top: 5%;
+}
+
+.outer-left {
+	border-left: 1em solid;	
+}
+
+.inner-left {
+	border-left: 0.75em solid;
+	margin-top: 5%;
+	width: 90%;
+	height: 90%;
+	margin-top: 5%;
+}
+
+.blue {
+	border-color: #A1C1BE;
+}	
+
+.brown{
+	border-color:#59554e;
+}
+
+.page-title-left {
+	float: right;
+	width: 75%;
+	height: 75px;
+	text-align: center;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 5em;
+	margin-top: 40%;
+	text-shadow: 3px 4px 6px rgba(0,0,0,0.57);
+}
+
+.page-title-right {
+	float: left;
+	width: 50%;
+	height: 75px;
+	text-align: center;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 5em;
+	margin-top: 34.2%;
+	text-shadow: 3px 4px 6px rgba(0,0,0,0.57);
+}	
+
+
+/************************************
+	Title Boxes
+************************************/
+
+.filled-box {
+	opacity: 0;
+	width: 600px;
+	height: 350px;
+	background-color: white;
+	border-style: solid solid none;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	border-color: #59554E;
+}
+
+.text-box {
+	width: 90%;
+	height: 288px;
+	margin-left: 4%;
+	margin-top: 4%;
+	text-align: justify;
+	font-size: 1.5em;
+	line-height: 1.25em;
+}
+
+.title-box {
+	width: 90%;
+	height: 288px;
+	margin-left: 4%;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.subtitle-box {
+	border-color: #59554E;
+	border-radius: .1em;
+	-moz-border-radius: .1em;
+	-webkit-border-radius: .1em;
+	background-color: white;
+	opacity: 0.95;
+	width: 50%;
+	height: 20%;
+	margin-left: 25%;
+	text-align: center;
+	font-size: 3.5em;
+	border-width: 0.025em;
+	border-top-style: solid;
+	padding-top: 10px;
+}
+
+
+.title-large {
+	font-size: 20em;
+}
+
+.title-medium {
+	font-size: 14em;
+}
+
+.title-small {
+	font-size: 10em;
+}
+
+/************************************
+	Circle Decorations
+************************************/
+
+.circle {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: .1em solid white;
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+}
+
+.inset {
+	width: 300px;
+	height: 300px;
+	background: white;
+	opacity: 0.8;
+	-webkit-box-shadow: inset -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: inset-3px 3px 6px rgba(0,0,0,0.23);
+}
+
+.large {
+	width: 200px;
+	height: 200px;
+}
+
+.medium {
+	width: 100px;
+	height: 100px;
+}
+
+.small {
+	width: 50px;
+	height: 50px;
+}
+
+.xsmall {
+	width: 25px;
+	height: 25px;
+}
+
+.inner-circle {
+	float: left;
+	width: 50%;
+	height: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: 9.5%;
+	margin-top: 9.5%;
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+}
+
+.inner-circle-image{
+	float: left;
+	width: auto;
+	height: 80%;
+	padding-left: 36%;
+	padding-top: 14%;
+}
+
+.inner-circle-distort {
+	float: left;
+	width: 75%;
+	height: 75%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: 10%;
+	margin-top: 10%;
+	-webkit-box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: -3px 3px 6px rgba(0,0,0,0.23);
+}
+
+.border-large {
+	border: 2em solid white;
+}
+
+.border-medium {
+	border: 1em solid white;
+}
+
+.border-small{
+	border: .5em solid white;
+}
+
+.border-xsmall{
+	border: .25em solid white;
+}
+
+.border-xxsmall{
+	border: .125em solid white;
+}
+
+.inner-circle-shadow {
+	float: left;
+	width: 100%;
+	height: 100%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset -3px 3px 6px rgba(0,0,0,0.23);
+	box-shadow: inset -3px 3px 6px rgba(0,0,0,0.23);
+}
+
+/*Quote Boxes */
+
+.quote-box {
+	width: 801px;
+	border-radius: 1.5em ;
+	-moz-border-radius: 1.5em;
+	-webkit-border-radius: 1.5em;
+	border-color: #FFFFFF;
+	border-right-style: solid;
+	border-left-style: solid;
+	position: absolute;
+}
+
+.quote-box-fill {
+	opacity: 0.65;
+	background: black;
+	width: 100%;
+	border-radius: 1.5em;
+	-moz-border-radius: 1.5em;
+	-webkit-border-radius: 1.5em;
+	margin-top: -32px;
+}
+
+.text-quote {
+	width: 90%;
+	height: 90%;
+	margin-left: 4%;
+	margin-top: 4%;
+	text-align: justify;
+	font-size: 1.25em;
+	line-height: 1.25em;
+	color: #FFFFFF;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
